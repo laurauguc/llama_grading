@@ -10,7 +10,7 @@ Python version: 3.10.12
 PyTorch version: 2.5.0+cu121
 CUDA version: 12.1
 
-Access to GPU with 16 GB VRAM (for models based on Llama-3.2-1B-Instruct and Llama-3.2-3B-Instruct). More than 35 GB RAM needed for larger models (to be built later).
+For the first stage of this project, access to a GPU with 15 GB VRAM is needed (for models based on Llama-3.2-1B-Instruct and Llama-3.2-3B-Instruct). Google Colab meets in this requirement. For a later stage, where we will be fine-tuning a larger models, more than 35 GB RAM will be needed.
 
 ## Models Info
 
@@ -27,7 +27,6 @@ Access to GPU with 16 GB VRAM (for models based on Llama-3.2-1B-Instruct and Lla
 ## Modeling Strategy: Use Criterion-Specific LLMs
 
 To streamline fine-tuning, we are building a separate LLM for each individual grading criterion. This allows for targeted fine-tuning based on the complexity of the writing criterion. Also, since each criterion may appear across multiple rubrics, organizing fine-tuning by criterion rather than by rubric simplifies the process, addressing each assessment dimension independently.
-
 
 ### Writing Assessment Criteria
 
