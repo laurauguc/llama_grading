@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The purpose of this project is to expand on the [GradeMate app](https://www.grade-mate.app/) by replacing proprietary models with open-source models. This involves prompting, fine-tuning, evaluating, and orchestrating open-source Large Language Models (LLMs). The project is conducted in collaboration with the [Columbia University QMSS Innovation Lab](https://qmss.columbia.edu/content/partner-us).
+The purpose of this project is to expand on the [GradeMate app](https://www.grade-mate.app/) by replacing proprietary models with open-source models. This involves prompting, fine-tuning, evaluating, and orchestrating open-source Large Language Models (LLMs). The project is conducted in collaboration with the [Columbia University QMSS Innovation Lab](https://qmss.columbia.edu/content/how-does-qmss-innovation-lab-work).
 
 ## Requirements
 
