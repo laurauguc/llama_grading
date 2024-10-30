@@ -31,7 +31,7 @@ To streamline fine-tuning, we are building a separate LLM for each individual gr
 
 ### Writing Assessment Criteria
 
-| Writing Criteria           | Model Complexity (Parameters) | Fine-Tuning Required? |
+| Writing Criteria Type          | Model Complexity (Parameters) | Fine-Tuning Required? |
 |----------------------------|-------------------------------|------------------------|
 | Grammar                    | Low (100M - 500M)            | No                     |
 | Language Appropriateness    | Medium (500M - 1B)           | Yes                    |
