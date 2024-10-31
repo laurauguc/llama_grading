@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The purpose of this project is to expand on the [GradeMate app](https://www.grade-mate.app/) by replacing proprietary models with open-source models. This involves prompting, fine-tuning, evaluating, and orchestrating open-source Large Language Models (LLMs). The project is conducted in collaboration with the [Columbia University QMSS Innovation Lab](https://qmss.columbia.edu/content/how-does-qmss-innovation-lab-work).
+The purpose of this project is to expand on the [GradeMate app](https://www.grade-mate.app/) by enhancing its evaluation (scoring, justification, feedback) models. This involves prompting, fine-tuning, evaluating, and orchestrating open-source Large Language Models (LLMs). The project is conducted in collaboration with the [Columbia University QMSS Innovation Lab](https://qmss.columbia.edu/content/how-does-qmss-innovation-lab-work).
 
 ## Requirements
 
@@ -13,6 +13,8 @@ CUDA version: 12.1
 For the first stage of this project, access to a GPU with 15 GB VRAM is needed (for models based on Llama-3.2-1B-Instruct and Llama-3.2-3B-Instruct). Google Colab meets in this requirement. For a later stage, where we will be fine-tuning a larger models, more than 35 GB RAM will be needed.
 
 ## Models Info
+
+Main pre-training model (for further fine-tuning):
 
 - **Model Used**: Llama-3.1-8B-Instruct
 - **Model Card**: [Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)
@@ -37,7 +39,7 @@ To streamline fine-tuning, we are building a separate LLM for each individual gr
 | Writing Cohesiveness and Context-Sensitive Tasks       | High (1B - 6B)               | Yes                    |
 | Content        | Very High (6B +)               | Yes                    |
 
-Note: Justifying assessments can be more complex than generating a score alone. Decide whether to handle justification independently.
+Note: Smaller models suit simpler tasks, while complex, interpretive tasks require larger, fine-tuned models that can accommodate both assessment and justification tasks for robust scoring across diverse grading rubrics.
 
 ## Steps
 
