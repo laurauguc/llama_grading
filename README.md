@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The purpose of this project is to expand on the [GradeMate app](https://www.grade-mate.app/) by enhancing and evaluate the grading models (scoring, justification, feedback) models. This involves prompting, fine-tuning, evaluating, and orchestrating open-source Large Language Models (LLMs). A significant difference from the original GradeMate project is leveraging open-source pre-trained LLM instead of proprietary ones and shifting the modelling to a grading criteria focus. The project is conducted in collaboration with the [Columbia University QMSS Innovation Lab](https://qmss.columbia.edu/content/how-does-qmss-innovation-lab-work).
+The purpose of this project is to expand on the [GradeMate app](https://www.grade-mate.app/) by enhancing the grading models (scoring, justification, feedback) models and the evaluation approach. This involves prompting, fine-tuning, evaluating, and orchestrating open-source Large Language Models (LLMs). Some noteworthy changes that we are exploring are: 1) leveraging open-source pre-trained LLMs instead of proprietary ones, 2) using grading-criteria focused models, and 3) developing a more rigorous evaluation framework. The project is conducted in collaboration with the [Columbia University QMSS Innovation Lab](https://qmss.columbia.edu/content/how-does-qmss-innovation-lab-work).
 
 ## Requirements
 
